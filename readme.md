@@ -64,7 +64,6 @@ You can share your feedback on the [GitHub Issues page](https://github.com/ivan-
 
 <br>
 <h3 align="center"> Tempered Caterium Ingot </h3>
-> Tempered Caterium Ingot (not actualized! Production speed must be 6 seconds so you get 30 ingots/min. Ratios stay the same)
 
 | Before | | After |
 |:---:|:---:|:---:|
