@@ -6,7 +6,7 @@ This mod is here to fix that.
 
 Recipe Rework rebalances selected vanilla recipes and adds a few new ones to create more meaningful choices when designing your factories.
 
-Don't forget to check out the screenshots below! =)
+**Don't forget to check out complete recipe list with screenshots below =)**
 
 ### Design Philosophy
 
