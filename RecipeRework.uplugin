@@ -2,12 +2,12 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0.0",
-	"FriendlyName": "RecipeRework",
+	"FriendlyName": "Recipe Rework",
 	"Description": "A mod, that rebalances existing recipes and adds a couple of new ones.",
 	"Category": "Modding",
-	"CreatedBy": "ivanio",
-	"CreatedByURL": "",
-	"DocsURL": "",
+	"CreatedBy": "ivanio-limited",
+	"CreatedByURL": "https://github.com/ivanio-limited",
+	"DocsURL": "https://github.com/ivanio-limited/RecipeRework/blob/main/readme.md",
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": true,
@@ -21,11 +21,11 @@
 			"Enabled": true,
 			"SemVersion": "^3.12.0"
 		},
-    {
-        "Name": "ContentLib",
-        "Enabled": true,
-        "SemVersion": "^1.10.0"
-    }
+		{
+			"Name": "ContentLib",
+			"Enabled": true,
+			"SemVersion": "^1.10.0"
+		}
 	],
 	"SemVersion": "1.0.0",
 	"GameVersion": ">=502094"
