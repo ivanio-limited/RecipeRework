@@ -1,0 +1,21 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_PureCopperIngot.Recipe_Alternate_PureCopperIngot_C
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Ingredients": [
+        {
+            "Item": "Desc_OreCopper",
+            "Amount": 4
+        },
+        {
+            "Item": "Desc_Water",
+            "Amount": 3000
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_CopperIngot",
+            "Amount": 8
+        }
+    ],
+    "ManufacturingDuration": 12
+}
