@@ -1,0 +1,25 @@
+//Game/FactoryGame/Recipes/Blender/Recipe_RocketFuel.Recipe_RocketFuel_C
+{
+  "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+  "Ingredients": [
+    {
+      "Item": "Desc_LiquidTurboFuel",
+      "Amount": 6000
+    },
+    {
+        "Item": "Desc_NitricAcid",
+        "Amount": 1000
+    }
+  ],
+  "Products": [
+    {
+        "Item": "Desc_RocketFuel",
+        "Amount": 8000
+    },
+    {
+      "Item": "Desc_CompactedCoal",
+      "Amount": 1
+    }
+  ],
+  "ManufacturingDuration": 4
+}

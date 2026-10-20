@@ -4,11 +4,11 @@
   "Ingredients": [
     {
       "Item": "Desc_PackagedRocketFuel",
-      "Amount": 12
+      "Amount": 8
     },
     {
         "Item": "Desc_DarkMatter",
-        "Amount": 3
+        "Amount": 4
     }
   ],
   "Products": [
@@ -18,8 +18,8 @@
     },
     {
       "Item": "Desc_CompactedCoal",
-      "Amount": 2
+      "Amount": 1
     }
   ],
-  "ManufacturingDuration": 6
+  "ManufacturingDuration": 12
 }

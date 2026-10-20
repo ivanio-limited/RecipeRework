@@ -1,0 +1,33 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/Alt_Tier9/Recipe_Alternate_RocketFuel_Nitro.Recipe_Alternate_RocketFuel_Nitro_C
+{
+  "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+  "Ingredients": [
+    {
+      "Item": "Desc_LiquidFuel",
+      "Amount": 4000
+    },
+    {
+        "Item": "Desc_NitrogenGas",
+        "Amount": 3000
+    },
+    {
+      "Item": "Desc_Sulfur",
+      "Amount": 4
+    },
+    {
+        "Item": "Desc_Coal",
+        "Amount": 2
+    }
+  ],
+  "Products": [
+    {
+        "Item": "Desc_RocketFuel",
+        "Amount": 5000
+    },
+    {
+      "Item": "Desc_CompactedCoal",
+      "Amount": 1
+    }
+  ],
+  "ManufacturingDuration": 2
+}
