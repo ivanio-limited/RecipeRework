@@ -142,7 +142,7 @@ Ok, let's go on...
 Why exactly 2.8125?? Are we calculating **pi** or something? The number doesn't even fit on the screen.
 
 </details>
-<details><summary>P.s.s.</summary>
+<details><summary>P.p.s.</summary>
 
 Don't mind the extra 2 Concrete on the Encased Frame, just pretend you didn't see that.
 
