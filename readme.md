@@ -362,10 +362,37 @@ Note: You might need some extra Caterium.
 | ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/SolidBiofuel.png?raw=true) | **+** | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/MineralizedBiofuel.png?raw=true) |
 <br>
 
-<summary align="center"><h2>Ionized Fuel</h2></summary>
+<summary align="center"><h2>Rocket Fuel and Ionized Fuel</h2></summary>
 
-- **Work in progress**
+- **Analysis:** Let's compare each (Oil-based) fuel type to the next tier in terms of energy per m³ and conversion ratios (using basic recipes).
 
+<div align="center">
+
+| Ingredient → Product | Item (m³) ratio | Energy per m³ ratio |  Effective Energy Multiplier (EEM) |
+| :------------------: | :-------------: | :-----------------: | :--------------------------------: |
+|     Fuel → Turbo     |      6 : 5      |   750 MJ : 2000 MJ  |  5 × 2000 MJ / (6 × 750 MJ) = 2.22 |
+|    Turbo → Rocket    |      6 : 10     |  2000 MJ : 3600 MJ  |  10 × 3600 MJ / (6 × 2000 MJ) = 3  |
+|   Rocket → Ionized   |      1 : 1      |  3600 MJ : 5000 MJ  | 1 × 5000 MJ / (1 × 3600 MJ) = 1.39 |
+
+</div>
+
+- **Problem:** On the one hand, Rocket Fuel has by far the highest **EEM**, while Ionized Fuel has the lowest. Rocket Fuel also has the best Somersloopable fuel recipes, especially Nitro Rocket Fuel, giving you the greatest net power increase per Somersloop. The only exception is Dark-Ion Fuel, but its ratios are terrible to begin with, so I wouldn't consider it. The **EEM** is a mathematical way to quantify how much more power you can get (gross) by upgrading to the next fuel tier. That's why Rocket Fuel feels so powerful and desirable: it triples the energy output in exchange for a reasonable amount of Nitrogen Gas. You even get some Compacted Coal back! Meanwhile, Ionized Fuel increases energy output by just 1.39×. And that's before accounting for the power cost of producing Power Shards, which can actually make the net power output **negative**.
+
+- **Solution:** Balanced the EEMs by moderately nerfing Rocket Fuel and substantially buffing Ionized Fuel. Also adjusted the production speeds of both Ionized Fuel recipes to make them more viable for Somersloop boosting.
+
+
+<h3 align="center"> Rocket Fuel </h3>
+
+| Before | | After |
+|:---:|:---:|:---:|
+| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/RocketFuel.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/RocketFuel.png?raw=true) |
+<br>
+<h3 align="center"> Nitro Rocket Fuel </h3>
+
+| Before | | After |
+|:---:|:---:|:---:|
+| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/NitroRocketFuel.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/NitroRocketFuel.png?raw=true) |
+<br>
 <h3 align="center"> Ionized Fuel </h3>
 
 | Before | | After |
@@ -376,7 +403,7 @@ Note: You might need some extra Caterium.
 
 | Before | | After |
 |:---:|:---:|:---:|
-| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/DarkIonizedFuel.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/DarkIonizedFuel.png?raw=true) |
+| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/DarkIonFuel.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/DarkIonFuel.png?raw=true) |
 
 </details>
 

@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.3",
+	"VersionName": "1.0.4",
 	"FriendlyName": "Recipe Rework",
 	"Description": "A mod, that rebalances existing recipes and adds a couple of new ones.",
 	"Category": "Modding",
@@ -27,6 +27,6 @@
 			"SemVersion": "^1.10.0"
 		}
 	],
-	"SemVersion": "1.0.3",
+	"SemVersion": "1.0.4",
 	"GameVersion": ">=502094"
 }
