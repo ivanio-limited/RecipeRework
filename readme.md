@@ -380,6 +380,8 @@ Note: You might need some extra Caterium.
 
 - **Solution:** Balanced the EEMs by moderately nerfing Rocket Fuel and substantially buffing Ionized Fuel. Also adjusted the production speeds of both Ionized Fuel recipes to make them more viable for Somersloop boosting.
 
+- **Note:** The mod only changes recipes, not fuel energy values. All burn times remain unchanged, whether in generators, vehicles, jetpacks, or drones.
+
 
 <h3 align="center"> Rocket Fuel </h3>
 
