@@ -8,7 +8,7 @@
         },
         {
             "Item": "Desc_Plastic",
-            "Amount": 15
+            "Amount": 20
         },
         {
             "Item": "Desc_Rubber",
@@ -25,5 +25,5 @@
             "Amount": 1
         }
     ],
-    "ManufacturingDuration": 16
+    "ManufacturingDuration": 15
 }

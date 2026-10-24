@@ -1,0 +1,25 @@
+//Game/FactoryGame/Recipes/OilRefinery/Recipe_AluminumScrap.Recipe_AluminumScrap_C
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Ingredients": [
+        {
+            "Item": "Desc_AluminaSolution",
+            "Amount": 6000
+        },
+        {
+            "Item": "Desc_Coal",
+            "Amount": 2
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_AluminumScrap",
+            "Amount": 9
+        },
+        {
+            "Item": "Desc_Water",
+            "Amount": 3000
+        }
+    ],
+    "ManufacturingDuration": 1.5
+}

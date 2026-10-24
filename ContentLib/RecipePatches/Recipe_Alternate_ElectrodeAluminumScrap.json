@@ -1,0 +1,14 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_ElectroAluminumScrap.Recipe_Alternate_ElectroAluminumScrap_C
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Ingredients": [
+        {
+            "Item": "Desc_AluminaSolution",
+            "Amount": 12000
+        },
+        {
+            "Item": "Desc_PetroleumCoke",
+            "Amount": 8
+        }
+    ]
+}

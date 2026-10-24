@@ -1,0 +1,14 @@
+//Game/FactoryGame/Recipes/SpaceElevatorParts/Recipe_SpaceElevatorPart_6.Recipe_SpaceElevatorPart_6_C
+{
+  "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+  "Ingredients": [
+    {
+        "Item": "Desc_Battery",
+        "Amount": 10
+    }
+  ],
+  "ClearIngredients": false,
+  "ProducedIn":[
+    "Build_ManufacturerMk1"
+  ]
+}

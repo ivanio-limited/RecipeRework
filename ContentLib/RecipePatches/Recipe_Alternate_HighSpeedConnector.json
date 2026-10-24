@@ -1,0 +1,25 @@
+//Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_HighSpeedConnector.Recipe_Alternate_HighSpeedConnector_C
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Ingredients": [
+        {
+            "Item": "Desc_CircuitBoard",
+            "Amount": 4
+        },
+        {
+            "Item": "Desc_Silica",
+            "Amount": 15
+        },
+        {
+            "Item": "Desc_HighSpeedWire",
+            "Amount": 40
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_HighSpeedConnector",
+            "Amount": 2
+        }
+    ],
+    "ManufacturingDuration": 40
+}

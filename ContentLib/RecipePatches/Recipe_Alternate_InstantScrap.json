@@ -4,30 +4,30 @@
     "Ingredients": [
         {
             "Item": "Desc_OreBauxite",
-            "Amount": 18
+            "Amount": 12
         },
         {
             "Item": "Desc_Coal",
-            "Amount": 9
+            "Amount": 6
         },
         {
             "Item": "Desc_SulfuricAcid",
-            "Amount": 6000
+            "Amount": 4000
         },
         {
             "Item": "Desc_Water",
-            "Amount": 12000
+            "Amount": 6000
         }
     ],
     "Products": [
         {
             "Item": "Desc_AluminumScrap",
-            "Amount": 40
+            "Amount": 24
         },
         {
-            "Item": "Desc_DissolvedSilica",
-            "Amount": 12000
+            "Item": "Desc_Water",
+            "Amount": 4000
         }
     ],
-    "ManufacturingDuration": 12
+    "ManufacturingDuration": 4.8
 }

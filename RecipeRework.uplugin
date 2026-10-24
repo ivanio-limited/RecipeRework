@@ -1,9 +1,9 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0.4",
+	"Version": 2,
+	"VersionName": "2.0.0",
 	"FriendlyName": "Recipe Rework",
-	"Description": "A mod, that rebalances existing recipes and adds a couple of new ones.",
+	"Description": "A mod, that rebalances existing recipes and adds a few of new ones.",
 	"Category": "Modding",
 	"CreatedBy": "ivanio-limited",
 	"CreatedByURL": "https://github.com/ivanio-limited",
@@ -27,6 +27,6 @@
 			"SemVersion": "^1.10.0"
 		}
 	],
-	"SemVersion": "1.0.4",
+	"SemVersion": "2.0.0",
 	"GameVersion": ">=502094"
 }

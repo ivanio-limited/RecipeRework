@@ -14,7 +14,7 @@
     "Products": [
         {
             "Item": "Desc_CopperIngot",
-            "Amount": 12
+            "Amount": 10
         }
     ],
     "ManufacturingDuration": 6

@@ -4,7 +4,11 @@
     "Ingredients": [
         {
             "Item": "Desc_Stator",
-            "Amount": 4
+            "Amount": 3
+        },
+        {
+            "Item": "Desc_Wire",
+            "Amount": 60
         },
         {
             "Item": "Desc_HighSpeedConnector",
@@ -14,11 +18,8 @@
     "Products": [
         {
             "Item": "Desc_SpaceElevatorPart_3",
-            "Amount": 8
+            "Amount": 6
         }
     ],
-    "ManufacturingDuration": 60,
-    "ProducedIn":[
-        "Build_AssemblerMk1"
-    ]
+    "ManufacturingDuration": 60
 }

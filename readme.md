@@ -8,6 +8,8 @@ Recipe Rework rebalances selected vanilla recipes and adds a few new ones to cre
 
 **Don't forget to check out complete recipe list with screenshots below =)**
 
+**Note:** While the mod is fully playable, some recipes may still change based on feedback. My goal is to keep it a vanilla-friendly experience.
+
 ### Design Philosophy
 
 The goal is to make alternative recipes more competitive, so that choosing the optimal production strategy depends on your factory, resources, and priorities — rather than one recipe simply outperforming all the others.
@@ -193,7 +195,7 @@ Don't mind the extra 2 Concrete on the Encased Frame, just pretend you didn't se
 
 | Existing | | Additional |
 |:---:|:---:|:---:|
-| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/CopperSheet.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/AlloyedCopperSheet.png?raw=true) |
+| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/CopperSheet.png?raw=true) | **+** | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/AlloyedCopperSheet.png?raw=true) |
 <br>
 <h3 align="center"> Copper Powder + Fine Copper Powder </h3>
 
