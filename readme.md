@@ -18,8 +18,8 @@ The mod rebalances dozens of vanilla recipes to give more of them a meaningful r
 
 ### What do you get?
 
-- **29 rebalanced recipes** — Adjustments to existing recipes to make different production strategies more viable.
-- **6 new recipes** — Additional options that open up interesting alternative production chains.
+- **34 rebalanced recipes** — Adjustments to existing recipes to make different production strategies more viable.
+- **2 new recipes** — Additional options that open up interesting alternative production chains.
 - **Vanilla-friendly design** — Changes are designed to preserve the original game's progression, logic, and overall feel.
 
 ### Feedback & Bug Reports
@@ -189,13 +189,13 @@ Don't mind the extra 2 Concrete on the Encased Frame, just pretend you didn't se
 <details>
 <summary><strong>Copper Products</strong></summary>
 <br>
-<h3 align="center"> Alloyed Copper Sheet </h3>
+<h3 align="center"> Tumbaga Sheet </h3>
 
 - **Addition:** Added an alternative Copper Sheet recipe that uses a rarer resource for better ratios, ideal for min-maxing production without needing Refineries.
 
 | Existing | | Additional |
 |:---:|:---:|:---:|
-| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/CopperSheet.png?raw=true) | **+** | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/AlloyedCopperSheet.png?raw=true) |
+| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/CopperSheet.png?raw=true) | **+** | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/TumbagaSheet.png?raw=true) |
 <br>
 <h3 align="center"> Copper Powder + Fine Copper Powder </h3>
 
@@ -259,96 +259,75 @@ I didn't touch the Nuclear Pasta recipe.
 <details>
 <summary><strong>Aluminum</strong></summary>
 <br>
+<h2 align="center"> Aluminum Scrap </h2>
+
+- **Problem:** Electrode Scrap paired with Sloppy Alumina offers by far the best resource efficiency, using only Water and 0.1 m³ of Oil per Bauxite while maintaining a 1:2 Bauxite-to-Scrap ratio. Other recipes are strictly worse unless you're low on Oil.
+- **Solution:** Buffed the Basic and Instant Scrap recipes and nerfed Electrode Scrap.
+
+<h3 align="center"> Aluminum Scrap </h3>
+
+- **Change:** Reduced Coal consumption by 33% relative to output.
+
+| Before | | After |
+|:---:|:---:|:---:|
+| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/AluminumScrap.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/AluminumScrap.png?raw=true) |
+<br>
+
+<h3 align="center"> Electrode Aluminum Scrap </h3>
+
+- **Change:** Doubled Petroleum Coke requirements.
+
+| Before | | After |
+|:---:|:---:|:---:|
+| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/ElectrodeAluminumScrap.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/ElectrodeAluminumScrap.png?raw=true) |
+<br>
+
 <h3 align="center"> Instant Scrap </h3>
 
-- **Problem:** The original recipe was too expensive for the little benefit it offered beyond saving space.
-- **Solution:** Sulfur now provides more than just extra Scrap per Bauxite: you also get Dissolved Silica, which can be used to produce more Aluminum Ingots.
-- **Attention:** You won't get enough Silica to process all the Scrap. However, there's no need to bring in extra Silica. The intended approach is to produce as many Ingots with Silica as possible (86%) and smelt the rest (14%) into Pure Aluminum Ingots. This yields ~1.41 Ingots per Bauxite. Smelting all the Scrap using the default recipe with extra Silica yields 1.48 Ingots per Bauxite, which isn't much of a difference.
-
-<details><summary>P.s.</summary>
-
-If you're used to dumping excess Water into the Wet Concrete Refinery, this recipe chain already requires Limestone to turn Dissolved Silica into solid Silica. So you don't even need to set up an extra line you wouldn't otherwise need.
-
-That said, this isn't the intended design. Feel free to sink it if you wish, but remember:
-
-**FICSIT does not waste!**
-
-</details>
-
-<details><summary>P.s.s.</summary>
-
-The Dissolved Silica recipe (not Quartz Purification) is also unlocked when obtaining this recipe.
-
-</details>
+- **Change:** Reduced Coal requirements by 25%.
 
 | Before | | After |
 |:---:|:---:|:---:|
 | ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/InstantScrap.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/InstantScrap.png?raw=true) |
 <br>
+
 <h3 align="center"> Alclad Casing </h3>
 
-- **Change:** Slightly increased output so you get a little more for all that Copper. The numbers are also cleaner.
+- **Change:** Slightly increased output so you get a little more for all that Copper. The numbers are also cleaner now.
 
 | Before | | After |
 |:---:|:---:|:---:|
 | ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/AlcladCasing.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/AlcladCasing.png?raw=true) |
 <br>
-<h3 align="center"> Caterium Alclad Sheet </h3>
-
-- **Addition:** A brand-new Caterium Alclad Sheet recipe gives you more Sheets out of your Aluminum.
-
-Note: You might need some extra Caterium.
-
-| Existing | | Additional |
-|:---:|:---:|:---:|
-| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/AlcladAluminumSheet.png?raw=true) | **+** | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/CateriumAlcladSheet.png?raw=true) |
 
 </details>
 
 <details>
 <summary><strong>Electronics</strong></summary>
 <br>
-<h3 align="center"> Aluminum Quickwire </h3>
 
-- **Addition:** Added a new Quickwire recipe inspired by Caterium Wire. Since the mod introduces several recipes that use Caterium, there needs to be a way to free up some Caterium for them.
-
-| Existing | | Additional |
-|:---:|:---:|:---:|
-| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/Quickwire.png?raw=true) | **+** | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/AluminumQuickwire.png?raw=true) |
-<br>
-<h3 align="center"> Alclad Circuit Board </h3>
-
-- **Addition:** Another interesting new recipe to put your Polymer Resin to use instead of sinking it. Sure, it requires Aluminum, but you get a lot of Circuit Boards in return. Pairs well with other electronics that also need Aluminum, like Radio Control Units.
-
-| Existing | | Additional |
-|:---:|:---:|:---:|
-| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/CircuitBoard.png?raw=true) | **+** | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/AlcladCircuitBoard.png?raw=true) |
-<br>
-
-<summary align="center"><h2>Recipes involving High Speed Connector</h2></summary>
+<h3 align="center"> High-Speed Connector </h3>
 
 - **Problem:** High-Speed Connectors are a pain to produce, making recipes that require them less appealing.
-- **Solution:** Lowered High-Speed Connector requirements.
-
-<h3 align="center"> Electromagnetic Connection Rod </h3>
+- **Solution:** Reduced the resources required to craft High-Speed Connectors.
 
 | Before | | After |
 |:---:|:---:|:---:|
-| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/ElectromagneticConnectionRod.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/ElectromagneticConnectionRod.png?raw=true) |
+| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/HighSpeedConnector.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/HighSpeedConnector.png?raw=true) |
 <br>
-<h3 align="center"> Radio Connection Unit </h3>
-
-- **Change:** Reduced the High-Speed Connector requirement per Radio Control Unit and replaced Heat Sinks with Batteries. This cuts Aluminum consumption significantly, but comes at the cost of a ton of Quartz Crystals, making it an interesting alternative to the other two recipes.
 
 | Before | | After |
 |:---:|:---:|:---:|
-| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/RadioConnectionUnit.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/RadioConnectionUnit.png?raw=true) |
+| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/SiliconHighSpeedConnector.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/SiliconHighSpeedConnector.png?raw=true) |
 <br>
+
 <h3 align="center"> Supercomputer </h3>
 
+- **Change:** Slightly tweaked the numbers to make them cleaner.
+
 | Before | | After |
 |:---:|:---:|:---:|
-| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/Supercomputer.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/SuperComputer.png?raw=true) |
+| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/Supercomputer.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/Supercomputer.png?raw=true) |
 
 </details>
 
@@ -415,31 +394,22 @@ Note: You might need some extra Caterium.
 <summary><strong>Space Elevator Parts</strong></summary>
 <br>
 
-- **Recipe Design:** All three existing alt recipes for Space Elevator Parts follow the same concept: increase the output in exchange for replacing an ingredient with one from the next phase. I tried to carry this idea over to my own alt recipes.
-
-<br>
 <h3 align="center"> Automated Speed Wiring </h3>
 
-- **Change:** Reduced High Speed Connector requirements as mentioned earlier. Also removed Wire from the recipe, allowing it to be produced in an Assembler.
+- **Change:** Lowered High-Speed Connector requirements, which, alongside the connector's own buff, should make this recipe much more appealing.
 
 | Before | | After |
 |:---:|:---:|:---:|
 | ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/AutomatedSpeedWiring.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/AutomatedSpeedWiring.png?raw=true) |
 <br>
-<h3 align="center"> Modular Propulsion </h3>
 
-- **Change:** Added a new recipe that replaces an oil product with a smaller amount of an Aluminum product in exchange for higher output.
+- **Problem:** Since 1.0, Batteries are no longer required for Drones and are only used in one other recipe: the Alternate Supercomputer. I feel like they're underrepresented and too easy to skip, which is a shame because I find them an interesting item.
+- **Solution:** Added Batteries to the Magnetic Field Generator recipe.
+- **Note:** Sure, Phase 4 is already a huge jump in complexity, and adding even more might feel overwhelming or unnecessary. However, compared to other Phase 4 parts and even the Phase 3 Adaptive Control Unit, Magnetic Field Generators are much easier to produce. That's why I think they're a good place to introduce Batteries. I can understand if you find this change unnecessary, but it feels more balanced and fair to me. Phase 4 might be the longest phase overall, introducing not only plenty of new items and mechanics like Drones, Aluminum production, and Resource Wells, but also the entire Nuclear power chain, including waste recycling. So I don't think you should rush through it unless you're a speedrunner.
 
-| Existing | | Additional |
+| Before | | After |
 |:---:|:---:|:---:|
-| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/ModularEngine.png?raw=true) | **+** | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/ModularPropulsion.png?raw=true) |
+| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/MagneticFieldGenerator.png?raw=true) | ➜ | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/MagneticFieldGenerator.png?raw=true) |
 <br>
-<h3 align="center"> Adaptive Framework </h3>
-
-- **Change:** Added an option to double Adaptive Control Unit output by upgrading Modular Frames to the next tier and using more expensive electronic components.
-
-| Existing | | Additional |
-|:---:|:---:|:---:|
-| ![Old recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/OldRecipesScreenshots/AdaptiveControlUnit.png?raw=true) | **+** | ![New recipe](https://github.com/ivanio-limited/RecipeRework/blob/main/Screenshots/NewRecipesScreenshots/AdaptiveFramework.png?raw=true) |
 
 </details>
