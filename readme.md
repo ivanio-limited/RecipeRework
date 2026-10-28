@@ -18,8 +18,8 @@ The mod rebalances dozens of vanilla recipes to give more of them a meaningful r
 
 ### What do you get?
 
-- **34 rebalanced recipes** — Adjustments to existing recipes to make different production strategies more viable.
-- **2 new recipes** — Additional options that open up interesting alternative production chains.
+- **33 rebalanced recipes** — Adjustments to existing recipes to make different production strategies more viable.
+- **3 new recipes** — Additional options that open up interesting alternative production chains.
 - **Vanilla-friendly design** — Changes are designed to preserve the original game's progression, logic, and overall feel.
 
 ### Feedback & Bug Reports
